@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(19, 18, 18);
+}
+.container h1 {
+  color: rgb(255, 180, 219);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.container .gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.container .gallery .image {
+  width: 250px;
+}
+.container .button {
+  display: flex;
+  justify-content: center;
+}
+.container .button .price {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(255, 180, 219);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.container .text {
+  color: azure;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=price.css.map */

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: darkslategray;
+  text-align: center;
+}
+.container h1 {
+  padding: 30px;
+  color: white;
+  font-size: 50px;
+}
+.container .gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .gallery .image {
+  display: none;
+  width: 45vw;
+}
+.container .gallery .image:first-child {
+  display: block;
+}
+.container .buttons input {
+  border: none;
+  background-color: rgb(26, 3, 3);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
